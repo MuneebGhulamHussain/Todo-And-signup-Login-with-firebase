@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Baloo+Bhai+2:wght@400..800&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Cal+Sans&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&family=Sigmar&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    background-color: seagreen;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+    border-radius: 10px;
+    width: 40%;
+    height: 90vh;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.heading h1{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2) !important;
+    /* font-size: 1.6em !important; */
+}
+.inputFeild-1{
+    margin-top:6px;
+    margin-left: 20px;
+    /* border: 1px solid red; */
+}
+.inputFeild-1 label{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.eye-icon-parent{
+
+    /* border: 1px solid orange !important; */
+    position: relative;
+}
+.eye-icon-parent i{
+    position: absolute;
+    right: 55px;
+    bottom  : 17px;
+    cursor: pointer;
+}
+.inputFeild-1 input{
+    width: 90%;
+    height: 45px;
+    border: 3px solid seagreen;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 1em;
+    outline: none;
+}
+.inputFeild-1 a{
+    color: seagreen;
+}
+.inputFeild-1 button{
+    width: 93%;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid seagreen;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    background-color: seagreen;
+}
+@media only screen and (max-width:966px){
+    .container1{
+        width: 80%;
+        height: 60vh;
+        margin-top: 180px !important; 
+    }
+}
+@media only screen and (max-width:472px){
+    .container1{
+        width: 90%;
+        /* height: 60vh; */
+        /* margin-top: 180px !important;  */
+    }
+     .eye-icon-parent i{
+    
+    right: 40px;
+    bottom  : 17px;
+}
+}
+.errorName,.errorNumber{
+    border: 2px solid red !important;
+}
+.errorName::placeholder,.errorNumber::placeholder{
+    color: red !important;
+}
+.removeNameErr{
+    border: 2px solid seagreen;
+    
+}
+.removeNameErr::placeholder{
+    color: black;
+
+}
