@@ -94,8 +94,8 @@ function loader(val,id){
 // 3JLcBfKrdbGmMjOxxLaD
 const editFunction=async (ele)=>{
     try {
-        let userChoice=prompt("Enter Updated Value ")
-    let prevValue=ele.parentNode.parentNode.firstElementChild.nextElementSibling.innerHTML
+        let prevValue=ele.parentNode.parentNode.firstElementChild.nextElementSibling.innerHTML
+        let userChoice=prompt("Enter Updated Value ",prevValue)
 
     let id=ele.parentNode.parentNode.firstElementChild.nextElementSibling.id
 

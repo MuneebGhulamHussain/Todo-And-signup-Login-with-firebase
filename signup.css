@@ -67,11 +67,15 @@ body{
     cursor: pointer;
     background-color: seagreen;
 }
+
+
+
+
 @media only screen and (max-width:966px){
     .container1{
         width: 80%;
-        height: 60vh;
-        margin-top: 180px !important; 
+        height: 70vh;
+        margin-top: 120px !important; 
     }
 }
 @media only screen and (max-width:472px){

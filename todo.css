@@ -217,7 +217,7 @@ body{
     /* border: 1px solid white; */
     display: flex;
     justify-self: end;
-    padding-right: 80px;
+    padding-right: 30px;
     padding-top: 30px;
 }
 .Logout-btn button{
@@ -232,3 +232,9 @@ body{
     background-color: #6FA8A8;
     color: white;
 }
+/* @media only screen and (max-width:500px){
+ .Logout-btn{
+    padding:none !important;
+    border: 2px solid red;
+ }
+} */
